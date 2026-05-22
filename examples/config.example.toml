@@ -1,0 +1,13 @@
+# Copy to ~/.config/aid/config.toml then edit.
+
+[llm]
+# Any OpenAI-compatible endpoint
+base_url = "https://api.openai.com/v1"
+api_key  = "sk-REPLACE_ME"
+model    = "gpt-4o-mini"
+timeout  = 30
+
+# Local llama.cpp / Ollama example:
+# base_url = "http://localhost:11434/v1"
+# api_key  = "ollama"
+# model    = "qwen2.5:7b"
